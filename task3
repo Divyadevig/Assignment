@@ -1,0 +1,24 @@
+<html>
+<body>
+<form action="">
+<fieldset width="30%">
+<fieldset width="30%">
+    
+  <legend>Customer</legend>
+  <label for="name" >Name<sup</label>
+  <input type="text" name="nme" id="name"><br>
+  <label for="mail" >Email</label>
+  <input type="email" name="mail" id="mail"><br>
+  <label for="inves" >Invesment</label>
+  <input type="number" name="inves" id="inves"><br>
+ <label for="datejoin" >Date joined</label>
+  <input type="date" name="datejoin" id="datejoin"><br>
+ <label for="active" >Active</label>
+ <input type="checkbox"name="h1"value="active"><br>
+</fieldet>
+   <input type="submit" value = "ok">
+   <input type="reset" value="cancel">
+</fieldset>
+</form>
+</body>
+</html>
