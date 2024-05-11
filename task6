@@ -1,0 +1,116 @@
+<html>
+<body style="background-color:pink;">
+<style>
+
+fieldset{
+background-color:powderblue;
+}
+</style>
+<center>
+<h1 style="color:deeppink;">Student Registration</h1>
+
+</center>
+<form action="" width="50">
+
+
+<fieldset>
+
+<label for="fname">First Name</label>
+<input type="text" name="name" id="fname"> (max 30 characters a to z and A to Z)<br>
+<label for="lname">Last Name</label>
+<input type="text" name="nme" id="lname"> (max 30 characters a to z and A to Z)<br>
+<label for="dob">Date of Birth</label>
+<input type="date" name="do" id="dob"><br>
+<label for="mail">Email</label>
+<input type="email" name="mail" id="mail"><br>
+<label for="mobile">Mobile</label>
+<input type="number" name="mob" id="mobile"> (10 digits only)<br>
+<label for="gender"> Gender</label>
+<input type="radio" name="gender" value="M" id="gender">Male
+<input type="radio" name="gender" value="F" id="gender">Female<br>
+<label for="addr">Address</label>
+<textarea name="addre"id="addr" cols="5" rows="3"></textarea><br>
+<label for="city">City</label>
+<input type="text" name="city" id="city"> (max 30 characters a to z and A to Z)<br>
+<label for="pin">Mobile</label>
+<input type="number" name="pnd" id="pin"> ( 10 digits only)<br>
+<label for="state">State</label>
+<input type="text" name="st" id="state"> (max 30 characters a to z and A to Z)<br>
+<label for="country">Country</label>
+<input type="text" name="count" id="country"> (max 30 characters a to z and A to Z)<br>
+<label for="hobbies">Hobbies</label>
+<input type="checkbox" name="h1" value="cricket">cricket
+<input type="checkbox" name="h2" value="sing">sing
+<input type="checkbox" name="h3" value="dance">dance
+<input type="checkbox" name="h4" value="football">football
+<input type="checkbox" name="h4" value="others">others
+<input type="text" name="h4" value=""><br>
+
+<table cellpadding="2px" cellspacing="5px" width="10%">
+<tr>
+
+<td><label for="qual">Qualification</label>
+<th><label for="sno">S.no</label></th>
+<th><label for="examination">Examination</label></th>
+<th><label for="board">Board</label></th>
+<th><label for="percent">Percentage</label></th>
+<th><label for="yop">Year of passing</label></th>
+</tr>
+<tr>
+<td></td>
+<td>1</td>
+<td>class X </td>
+<td><input type="text" id="">
+<td><input type="number" id="">
+<td><input type="number" id="">
+</tr>
+<tr>
+<td></td>
+<td>2</td>
+<td>board XII</td>
+<td><input type="text" id="">
+<td><input type="number" id="">
+<td><input type="number" id="">
+</tr>
+<tr>
+<td></td>
+<td>3</td>
+<td>Graduation</td>
+<td><input type="text" id="">
+<td><input type="number" id="">
+<td><input type="number" id="">
+</tr>
+<td></td>
+<td>4</td>
+<td>Master</td>
+<td><input type="text" id="">
+<td><input type="number" id="">
+<td><input type="number" id="">
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>(10 char max)</td>
+<td>(upto 2 decimal)</td>
+</tr>
+</table>
+<label for="courses"> Courses Applied  for</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="course" value="c" id="courses">MCA
+<input type="radio" name="course" value="c1" id="courses">B.COM
+<input type="radio" name="course" value="c2" id="courses">B.SC
+<input type="radio" name="course" value="c3" id="courses">M.COM<br>
+<center>
+<input type="submit">
+<input type="reset">
+</center> 
+</form>
+
+</fieldset>
+</center>
+
+</body>
+</html>
+
+
+
